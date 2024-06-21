@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
+import '../../../Component/Utils/DeviceUtils.dart';
 import '../../../component/Constant/PrefKey.dart';
 import '../../../generated/l10n.dart';
 
@@ -197,7 +197,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   buildButton("="),
                 ],
               ),
-              SizedBox(height: 30,)
+              SizedBox(height: 30+DeviceUtils.padding.bottom,)
             ],
           ),
         ],
