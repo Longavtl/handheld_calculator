@@ -197,6 +197,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   buildButton("="),
                 ],
               ),
+              SizedBox(height: 30,)
             ],
           ),
         ],
